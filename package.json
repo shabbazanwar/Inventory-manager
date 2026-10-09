@@ -17,5 +17,8 @@
   "dependencies": {
     "@neon/config": "^1.8.6",
     "@neon/env": "^1.5.3"
-  }
+  },
+  "engines": {
+  "node": "22.20.0"
+}
 }
