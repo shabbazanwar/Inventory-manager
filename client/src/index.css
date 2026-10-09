@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', 'Aptos', sans-serif;
+  color: #1b2923;
+  background: #f2f5f1;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ink: #1b2923;
+  --muted: #77847d;
+  --line: #dfe5df;
+  --canvas: #f2f5f1;
+  --green: #35654a;
+  --lime: #d7f66e;
+  --orange: #df704b;
+  --sans: 'DM Sans', 'Aptos', sans-serif;
+  --mono: 'DM Mono', Consolas, monospace;
+
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-image: radial-gradient(#d7e0d7 0.65px, transparent 0.65px);
+  background-size: 17px 17px;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #528466;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: var(--ink);
+  background: var(--lime);
+}
