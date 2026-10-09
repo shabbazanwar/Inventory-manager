@@ -875,6 +875,7 @@ h1 {
 
 .visually-hidden {
   position: absolute;
+  left: 0;
   width: 1px;
   height: 1px;
   overflow: hidden;
